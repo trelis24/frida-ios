@@ -12,8 +12,8 @@ For more information:
 */
 
 
-var search_class = ['SensitiveInformationDetailsVC'];
-var search_method = ['viewDidLoad'];
+var search_class = [''];
+var search_method = [''];
 
 function search_methods(className) {
 	var methods_found = [];
@@ -98,7 +98,7 @@ if (ObjC.available)
 					console.log('Detected call to:');
 					console.log('   ' + this._className + ' --> ' + this._methodName);
 					
-					print_arguments(args);
+					//print_arguments(args);
 				},
 				onLeave: function(returnValues) {
 					console.log('Return value of:');
